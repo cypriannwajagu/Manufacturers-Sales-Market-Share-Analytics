@@ -36,8 +36,14 @@
 | Geo | Dimension | Geographic hierarchy | State, Region |
 | Date | Dimension | Full date hierarchy | Year, Quarter, Month |
 
+## 🔍 Key Observations & Business Recommendations
+The following recommendations are based on the data fields, KPIs, and visual structure of this report. These are actionable insights the business should consider to drive growth, improve competitiveness, and optimise performance.
 
-
-
-
+| Area | Observation | Recommended Action | Priority |
+|------|-------------|--------------------|----------|
+| 1. Market Share Decline (YOY) | The Unit Market Share YOY Change measure tracks year-over-year shifts in competitive positioning. Any negative trend signals a manufacturer losing ground to competitors | Identify manufacturers with declining YOY market share and investigate root causes — pricing, distribution gaps, or product gaps. Develop targeted recovery plans with sales and marketing teams | 🔴 High |
+| 2. Regional Sales Gaps | Geo.Region is used in the multi-dimensional column chart, revealing which regions contribute most and least to revenue. Some regions may be significantly underrepresented | Conduct a region-by-region gap analysis. Regions with low Sales $ relative to their population or market potential should be prioritised for new distribution partnerships or sales campaigns | 🔴 High |
+| 3. Product Category Mix | Product Category is available in the multi-dimensional chart alongside manufacturer and region. Category-level profitability may differ significantly | Break down Sales $ and market share by Product.Category per manufacturer. Identify which categories are growing vs. declining and adjust inventory and production planning accordingly | 🟠 Medium |
+| 4. Manufacturer Competitive Benchmarking | The line chart compares all manufacturers' market share trends, but there is no single "market leader" benchmark line | Add a calculated measure for the top-performing manufacturer's market share as a dynamic benchmark. All other manufacturers can then be compared against this ceiling to understand the gap they need to close| 🟡 Low |
+|
 
